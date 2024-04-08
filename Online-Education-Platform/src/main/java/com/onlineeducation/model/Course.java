@@ -2,6 +2,11 @@ package com.onlineeducation.model;
 
 import java.util.Date;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "course")
 public class Course {
 	
 	private int Id;
