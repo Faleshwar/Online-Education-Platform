@@ -9,7 +9,7 @@ public class DemoController {
 
 	@GetMapping("/")
 	public String test() {
-		return "Online Education System";
+		return "Online Education Platform";
 	}
 	
 }
